@@ -1,3 +1,15 @@
+* {
+    background-color: rgb(72, 163, 216);
+}
+
+body {
+    width: 800px;
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
 .title {
     color: red;
     background-color: yellow;
@@ -8,19 +20,51 @@
 }
 
 .img {
-    width: auto;
-    height: 250;
+    display: block;
+    max-width: 700px;
+    height: auto;
+    margin: 4px auto;
+    background-color: white;
 }
 
-h3, ol, ul, p {
+h3, ol, ul, p , a, li{
     font-family: monospace;
+    background-color: white;
+}
+
+li p {
+    padding-left: 4px;
 }
 
 h3 {
     font-weight: bold;
     font-size: 20px;
+    background-color: white;
+    text-align: center;
 }
 
 .warning {
+    text-align: center;
     color: red;
+}
+
+ul, ol{
+    border: 1px dashed black;
+    padding: 10px;
+    padding-left: 28px;
+}
+
+.button {
+    text-align: center;
+    width: 50px;
+    margin: 10px auto;
+    background-color: rgb(255, 68, 68);
+    border: 2px outset black;
+    padding: 3px;
+}
+
+.button a {
+    font-size: 20px;
+    color: black;
+    background-color: rgb(255, 68, 68);
 }
