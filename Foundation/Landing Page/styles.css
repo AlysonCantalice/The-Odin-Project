@@ -75,6 +75,36 @@ p.author {
     border-radius: 12px;
 }
 
+.sign-up {
+    margin: 30px 100px;
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 12px;
+    padding: 50px;
+    justify-content:space-evenly
+}
+
+.sign-up-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-information .title, .sign-up-information .body {
+    margin: 0;
+}
+
+.sign-up-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-button .buttons {
+    border: 2px solid #e5e7eb;
+    color: #e5e7eb;
+}
+
 .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -159,8 +189,10 @@ ul {
     justify-content: center;
     border: 0;
     transition-duration: 0.2s;
+    color: #e5e7eb;
 }
 
 .buttons:hover {
-    background-color: #3881f691;
+    background-color: #e5e7eb;
+    color: #3882f6;
 }
