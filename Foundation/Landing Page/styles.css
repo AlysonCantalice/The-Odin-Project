@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-.header, .footer, .content {
+.header, .footer, .random-info, .quote {
     padding: 0 12%;
 }
 
@@ -15,14 +15,37 @@ body {
     background-color: #1F2937;
 }
 
-.content {
+.quote {
+    background-color: #e5e7eb;
+}
+
+.random-info, .quote {
     display: flex;
     flex-direction: column;
 }
 
-.random-info {
+.quote p {
+    margin: 60px;
+    padding: 0 45px;
+}
+
+p.text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 0;
+    max-width: 80%;
+    justify-content: center;
+}
+
+p.author {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
+    font-weight: 900;
+    font-size: 26px;
+    color: #1f2937;
+    margin-top: 0;
+    padding-right: 100px;
 }
 
 .random-content {
