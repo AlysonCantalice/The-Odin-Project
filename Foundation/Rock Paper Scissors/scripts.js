@@ -32,7 +32,7 @@ function game() {
     let wins = 0;
     let loses = 0;
 
-    for (let i = 0; i < 5; i++) {
+    while (wins != 5 && loses != 5) {
         let playerSelection = prompt("Rock, Paper or Scissors?");
         let computerSelection = getComputerChoice();
         let result = playRound(playerSelection, computerSelection);
